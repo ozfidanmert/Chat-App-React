@@ -1,0 +1,92 @@
+.rs {
+    background: #001030;
+    color: #fff;
+    height: 75vh;
+    position: relative;
+    overflow-y: scroll;
+}
+
+.rs-profile {
+    padding-top: 30px;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+.rs-profile img {
+    max-width: 110px;
+    max-height: 110px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.rs-profile h3 {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 7px 0;
+    justify-content: center;
+}
+
+.rs-profile p {
+    font-size: 11px;
+    margin: 10px 0 30px 0;
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.rs hr {
+    border-color: #ffffff50;
+    margin: 6px 0;
+}
+
+.rs-media {
+    font-size: 16px;
+    text-align: center;
+}
+
+.rs-media div {
+    max-height: 370px;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 0 15px;
+    margin-top: 20px;
+}
+
+.rs-media div img {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.mediainfo{
+    font-size: 12px;
+    color: #ffffff9c;
+    margin-top: 15px;
+}
+
+.rs button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #077fffea;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 8px 70px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+@media (max-width:900px) {
+    .rs{
+        display: none;
+    }
+}
+

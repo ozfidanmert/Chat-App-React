@@ -1,0 +1,168 @@
+.ls{
+    background: #001030;
+    color: #fff;
+    height: 75vh;
+}
+
+.ls-top{
+    padding: 20px;
+    border-bottom: 1px solid #ffffff24;
+}
+
+.ls-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ls-nav .logo{
+    max-width: 145px;
+    cursor: pointer;
+}
+
+.ls-nav .menu img{
+    max-height: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.ls-nav .menu{
+    position: relative;
+    padding: 10px 0;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 42px;
+    right: 0;
+    width: 110px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    display: none;
+
+}
+.sub-menu hr{
+    border: none;
+    height: 1px;
+    background: #a4a4a4c8;
+    margin: 4px 0;
+}
+.sub-menu p{
+    cursor: pointer;
+}
+
+.menu:hover .sub-menu{
+    display: block;
+}
+
+.ls-search{
+    background-color: #002670;
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.ls-search img{
+    width: 20px;
+}
+
+.ls-search input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.ls-search input::placeholder{
+    color: #c8c8c8;
+}
+
+.ls-list{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    overflow-y: scroll;
+    margin-top: 12px;
+}
+
+.friends{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.friends img{
+    width: 40px;
+    border-radius: 50%;
+}
+.friends-content{
+    display: flex;
+    flex-direction: column;
+}
+.friends-content span{
+    color: #9f9f9f;
+    font-size: 11px;
+}
+
+.active{
+    background-color: #021e3ec7;
+}
+
+
+.border{
+    background-color: #083bf0c0;
+}
+.border img{
+    border: 3px solid #07fff3;
+}
+.border div span{
+    color: #07fff3;
+}
+
+.ls-list .user-loading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.user-control{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 12px;
+    letter-spacing: 0.6px;
+}
+
+.user-img{
+    width: 40px;
+    height: 42px;
+}
+
+
+@media (max-width:900px) {
+    .ls{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ls-list{
+        height: 70%;
+        overflow-y: scroll;
+        margin-top: 12px;
+    }
+    
+}
