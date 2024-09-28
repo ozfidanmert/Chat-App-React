@@ -3,7 +3,7 @@
 
 <!-- Badges or Live Demo -->
 <p align="center">
-    <a href="[YOUR_LIVE_DEMO_URL](https://chatapp.mertozfidan.com.tr/chat)">
+    <a href="https://chatapp.mertozfidan.com.tr/chat">
         <img src="https://img.shields.io/badge/Live-Demo-brightgreen" alt="Live Demo">
     </a>
 </p>
